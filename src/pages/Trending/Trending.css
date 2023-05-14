@@ -1,0 +1,15 @@
+.trending-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 34.375rem) {
+  .trending-container {
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+  }
+}

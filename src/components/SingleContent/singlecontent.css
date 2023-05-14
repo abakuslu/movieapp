@@ -1,0 +1,63 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 14.5rem;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  align-items: stretch;
+  height: 100%;
+}
+
+.card-container:hover {
+  opacity: 0.7;
+  color: black;
+}
+.card-img {
+}
+
+.card-img img {
+  max-width: 220px;
+  border-radius: 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+.card-title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.sub-description {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+}
+
+.sub-description span {
+  color: white;
+  font-size: 0.8rem;
+  margin: 2px;
+}
+
+@media (max-width: 520px) {
+  .card-container {
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .badge {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+  }
+}
