@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import './tvseries.css';
+import './Tvseries.css';
 import axios from 'axios';
 import Pagination from '../../components/Pagination/Pagination';
 import Singlecontent from '../../components/SingleContent/SingleContent';
